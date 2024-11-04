@@ -42,6 +42,7 @@ Make sure to note down the hex codes from the serial monitor.
 After we have noted the hex codes, we can upload them to the Arduino. Refer to main.iso for the code or simply copy paste it.
 
 After having uploaded the code, we proceed to wiring all the components together. Note that all the components have to be wired in the following way inorder for it to work:
+![circuit diagram](https://raw.githubusercontent.com/MeIsAlien/Arduino-rc-car/refs/heads/main/circuit_diagram.png)
 
 If you have used a different wiring method, you will have to edit the code accordingly.
 
@@ -54,6 +55,9 @@ Mount the power supply, IR sensor, motor driver and the arduino on top of the hu
 You may want to provide support to the front inorder to keep everything on the same level inorder to lessen the load on the wheels at the back. However, this is not necessary if the glue/screws you used to clamp the motor to the hull is strong enough. I used a packaging box inorder to support the hull on the front since I had used double sided tape to fix everything together.
 
 It finally looked like this after it was all assembled together
+
+https://github.com/user-attachments/assets/f01051e7-83c2-4c72-a04f-8ddc4e68a624
+
 
 
 Note:
