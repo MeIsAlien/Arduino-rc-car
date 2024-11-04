@@ -9,9 +9,9 @@ This project by Joel Nadar demonstrates his journey to build a remote-controlled
 - 8 x 1.5V batteries
 - 8 AA battery holder or 2 x 4 AA battery holder
 - TV remote
-- Sturdy rectangular hull(I used a paintboard for this project)
+- Sturdy rectangular hull(I used a paint board for this project)
 - Double-sided tape
-- Multimeter(optional but helped me alot to figure out where the circuit was going wrong and how much power was directed to my motors)
+- Multimeter(optional but helped me a lot to figure out where the circuit was going wrong and how much power was directed to my motors)
 
 ### Step 1: mapping the right hex codes
 Before we start wiring the entire thing together, let us first note down the hex codes that your TV remote/IR remote emits. We will be using these to map the right hex codes to the right commands.
@@ -39,7 +39,7 @@ As of the time of testing, I was facing some issues with the latest version of I
 Make sure to note down the hex codes from the serial monitor.
 
 ### Step 2: Coding the Arduino and wiring everything together for testing
-After we have noted down the hex codes, we can proceed to upload the code to the Arduino. Refer to main.iso for the code or simply copy paste it.
+After we have noted the hex codes, we can upload them to the Arduino. Refer to main.iso for the code or simply copy paste it.
 
 After having uploaded the code, we proceed to wiring all the components together. Note that all the components have to be wired in the following way inorder for it to work:
 
@@ -57,6 +57,6 @@ It finally looked like this after it was all assembled together
 
 
 Note:
-- Ensure that the power supply is sufficient to power all components, for me, one 9v battery was not enough to power it, it. I had to use 8 1.5v with 2amphour batteries to make it work efficiently.
+- Ensure that the power supply is sufficient to power all components, for me, one 9v battery was not enough to power it. I had to use 8 1.5v with 2amphour batteries to make it work efficiently.
 - Experiment with different motor configurations and gear ratios to achieve desired performance.
 - Refer to the specific datasheets of the components for detailed pinouts and usage instructions.
